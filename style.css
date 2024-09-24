@@ -11,6 +11,22 @@ img {
     max-width: 100%;
 }
 /*--resetting css--*/
+
+.main-header{
+    background-color: orangered;
+    max-width: 1200px;
+}
+.head-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.logo{
+    height: 25px;
+}
+
+
 .container{
     max-width: 750px;
     margin: 0% auto;
@@ -62,4 +78,15 @@ img {
 .col-6{
     width: calc(100% /3);
     margin: 10px;
+}
+/*--footer section--*/
+
+.footer{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.footer-row{
+    height: 35px;
+    font-size: small;
 }
