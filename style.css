@@ -7,20 +7,59 @@ ul,ol{
     margin: 0%;
     padding: 0%;
 }
+img {
+    max-width: 100%;
+}
 /*--resetting css--*/
-
-.padre{
-    max-width: 1920px;
-    margin: 0%;
-    padding: 0%;
-}
 .container{
-    width: 1200px;
-    
+    max-width: 750px;
+    margin: 0% auto;
 }
-.photo{
-    width: 300px;
-    height: 400px;
-    margin: 10px;
+.row{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    font-size: small;
 }
 /*--other products photo--*/
+.col-1{ 
+   width: calc(100% /3);
+   margin: 10px;
+}
+.col-2{
+    width: calc(100% /3);
+    margin: 10px;
+}
+.col-3{
+    width: calc(100% /3);
+    margin: 10px;
+}
+.discounted{
+    font-size: small;
+    color: red;
+}
+.price-before{
+    text-decoration: line-through;
+    font-size: small;
+    color: lightslategrey;
+}
+/*---section--*/
+
+.row-2{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    font-size: small;
+}
+.col-4{
+    width: calc(100% /3);
+    margin: 10px;
+}
+.col-5{
+    width: calc(100% /3);
+    margin: 10px;
+}
+.col-6{
+    width: calc(100% /3);
+    margin: 10px;
+}
